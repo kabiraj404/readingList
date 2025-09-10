@@ -201,8 +201,8 @@ func GenerateSite() error {
 				"A mostly complete list of articles I've read on the internet<br>There are currently %d entries in the list<br>Last modified %s<br>Repo: %s<br> Forked from Repo: %s",
 				numArticles,
 				time.Now().Format(dateFormat),
-				"<a href=\"https://github.com/jamesmstone/readingList\" rel=\"noopener\"><code>jamesmstone/readingList</code></a>",
-				"<a href=\"https://github.com/jamesmstone/readingList\" rel=\"noopener\"><code>codemicro/readingList</code></a>",
+				"<a href=\"https://github.com/kabiraj404/readingList\" rel=\"noopener\"><code>jamesmstone/readingList</code></a>",
+				"<a href=\"https://github.com/kabiraj404/readingList\" rel=\"noopener\"><code>codemicro/readingList</code></a>",
 			),
 		)),
 		P(g.Raw(
